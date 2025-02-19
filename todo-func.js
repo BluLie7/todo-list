@@ -51,8 +51,9 @@ function addToList() {
     listRead();
 }
 
-function enterValue(event) {
-    if (event.key === 'Enter') {
+
+document.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
         addToList();
     }
-}
+});
