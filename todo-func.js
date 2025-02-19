@@ -9,8 +9,8 @@ function listRead() {
         const todoObject = todolist[i];
         const name = todoObject.name;
         const duedate = todoObject.dueDate;
-        const html = `<div>${i + 1}. ${name} </div>
-                    <div>${duedate}</div>  
+        const html = `<div id="taskItem">${i + 1}. ${name} </div>
+                    <div id="datesize">${duedate}</div>  
                     <button onclick="deleteFromList(${i});">Delete</button>`;
         todoListHTML += html;
     }
