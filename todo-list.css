@@ -1,0 +1,57 @@
+body {
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, hsl(182, 60%, 40%), hsl(160, 60%, 50%));
+    justify-items: center;
+}
+
+h1 {
+    font-size: 40px;
+
+}
+
+.task-input {
+    font-size: 20px;
+    padding: 5px 5px;
+}
+
+.date-input {
+    font-size: 20px;
+    padding: 4px 5px;
+}
+
+.input-fields,
+.list-elements {
+    display: grid;
+    grid-template-columns: 275px 150px 100px;
+    font-size: 17px;
+    column-gap: 5px;
+    row-gap: 5px;
+    align-items: center;
+}
+
+.input-fields {
+    margin-bottom: 10px;
+}
+
+
+
+
+.add-btn {
+    font-size: 17px;
+    padding: 7px 25px;
+    background: #24ae38;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.list-elements button {
+    font-size: 17px;
+    color: white;
+    padding: 7px 25px;
+    background: #a91919;
+    cursor: pointer;
+    border: none;
+
+}
